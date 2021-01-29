@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43589" started-at="2021-01-29T22:04:15 GMT" finished-at="2021-01-29T22:04:59 GMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43589" started-at="2021-01-29T22:04:15 GMT" finished-at="2021-01-29T22:04:59 GMT">
+      <class name="frameWork.TC002_MyWishList">
+        <test-method status="PASS" signature="Login()[pri:0, instance:frameWork.TC002_MyWishList@67205a84]" name="Login" duration-ms="25122" started-at="2021-01-29T22:04:15 GMT" finished-at="2021-01-29T22:04:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="MyWislist()[pri:0, instance:frameWork.TC002_MyWishList@67205a84]" name="MyWislist" duration-ms="18402" started-at="2021-01-29T22:04:40 GMT" finished-at="2021-01-29T22:04:59 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyWislist -->
+      </class> <!-- frameWork.TC002_MyWishList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
