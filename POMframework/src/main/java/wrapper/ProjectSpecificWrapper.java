@@ -8,10 +8,12 @@ import org.testng.annotations.DataProvider;
 
 import utils.ReadExcel;
 
-public class ProjectSpecificWrapper extends GenericWrapper {
-		
+import utils.ReadExcel;
+
+public class ProjectSpecificWrapper extends GenericWrapper{
+
 	
-public String excelfile;
+	public String excelfile;
 	
 	//@Parameters({"url"})
 	@BeforeMethod

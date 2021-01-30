@@ -3,9 +3,8 @@ package testCases;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import pages.CreateLead;
+import pages.CreateLeadPage;
 import pages.LoginPage;
-import wrapper.GenericWrapper;
 import wrapper.ProjectSpecificWrapper;
 
 public class TC001_LoginLogout extends ProjectSpecificWrapper {
@@ -23,6 +22,7 @@ public class TC001_LoginLogout extends ProjectSpecificWrapper {
 		.enterPassword(pwd)
 		.clickLogin()
 		.clickLogout();
+		
 		
 	}
 }

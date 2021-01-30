@@ -196,13 +196,14 @@ public interface WrapperMethods {
 	public void dismissAlert();
 	
 	public void takesnap() throws IOException;
-
-	/**
-	 * This method will close all the browsers
-	 */
-	public void quitBrowser();
+	
 	/**
 	 * This method will close the current active browser
 	 */
 	public void closeBrowser();
+	
+	/**
+	 * This method will close all the browsers
+	 */
+	public void quitBrowser();
 }

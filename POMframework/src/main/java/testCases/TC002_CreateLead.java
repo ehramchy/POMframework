@@ -22,11 +22,11 @@ public class TC002_CreateLead extends ProjectSpecificWrapper {
 		.clickLogin()
 		.clickCRMSFA()
 		.clickLeadsLink()
-		.clickCreateLeadLink()
+		.clickCreateLead()
 		.enterCompanyName(cName)
+		.enteFirstName(fName)
 		.enterLastName(lName)
-		.enterLastName(lName)
-		.clickCreateLead();
+		.clickCreateleadeButton();
 		
 		
 	}

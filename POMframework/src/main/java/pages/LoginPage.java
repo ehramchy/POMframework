@@ -5,7 +5,7 @@ import wrapper.ProjectSpecificWrapper;
 public class LoginPage extends ProjectSpecificWrapper {
 	
 	public LoginPage enterUserName(String uname) {
-		enterByName("USERNAME", uname);
+		enterById("username", uname);
 		return this;
 	}
 	
@@ -16,7 +16,7 @@ public class LoginPage extends ProjectSpecificWrapper {
 	}
 	
 	public HomePage clickLogin() {
-		clickByXpath("//input[@value='Login']");
+		clickByClassName("decorativeSubmit");
 		return new HomePage();
 	}
 

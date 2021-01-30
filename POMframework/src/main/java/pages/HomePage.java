@@ -9,9 +9,9 @@ public class HomePage extends ProjectSpecificWrapper {
 		return new LoginPage();
 	}
 	
-	public MyHome clickCRMSFA() {
+	public MyHomePage clickCRMSFA() {
 		clickByLinkText("CRM/SFA");
-		return new MyHome();
+		return new MyHomePage();
 	}
 
 }

@@ -13,15 +13,15 @@ import org.openqa.selenium.support.ui.Select;
 
 
 public class GenericWrapper  {
-			
-	public ChromeDriver driver;
+
+	public static ChromeDriver driver;
 
 	public void invokeApp(String url) {
 
 		//below we create Exception and handle it
 		try {
 					
-		System.setProperty("webdriver.chrome.driver","C:\\SeleniumSoft\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\chowd\\git\\repository\\POMframework\\drivers\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
@@ -31,10 +31,10 @@ public class GenericWrapper  {
 		}catch(Exception e){
 		System.err.println("The chrome browser not launched");
 		}
-		
+	/*	
 		finally {
 			takesnap();
-		}
+		} */
 	}
 
 	public void enterById(String idValue, String data) {
@@ -228,7 +228,7 @@ public class GenericWrapper  {
 	public void quitBrowser() {
 		driver.quit();
 
-	}
+	} 
 	public void closeBrowser() {
 		driver.close();
 	}

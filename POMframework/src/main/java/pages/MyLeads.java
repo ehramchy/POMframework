@@ -5,9 +5,9 @@ import wrapper.ProjectSpecificWrapper;
 public class MyLeads extends ProjectSpecificWrapper {
 	
 		
-public CreateLead clickCreateLeadLink() {
+public CreateLeadPage clickCreateLead() {
 	   clickByLinkText("Create Lead");
-		return new CreateLead();
+		return new CreateLeadPage();
 	
    }
 
